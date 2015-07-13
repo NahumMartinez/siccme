@@ -310,7 +310,7 @@
                                 <i class="fa fa-angle-left pull-right"></i>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="pages/charts/morris.html"><i class="fa fa-user"></i> Usuarios</a></li>
+                                <li><a href="views/seguridad/usuarios/v_mant_usuarios.php"><i class="fa fa-user"></i> Usuarios</a></li>
                                 <li><a href="pages/charts/flot.html"><i class="fa fa-male"></i> Personal</a></li>
 								<li><a href="pages/charts/flot.html"><i class="fa fa-user-md"></i> Medicos</a></li>
 								<li><a href="pages/charts/flot.html"><i ></i> ---------------------------------------- </a></li>

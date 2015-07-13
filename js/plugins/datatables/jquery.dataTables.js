@@ -7967,8 +7967,8 @@
 		 *      } );
 		 *    } );
 		 */
-		"aLengthMenu": [ 10, 25, 50, 100 ],
-	
+		"aLengthMenu": [ 3, 10, 15, 20 ],
+		// NMA: Valores de los filtros de las tablas
 	
 		/**
 		 * The aoColumns option in the initialisation parameter allows you to define
@@ -9036,8 +9036,8 @@
 		 *      } );
 		 *    } )
 		 */
-		"iDisplayLength": 10,
-	
+		"iDisplayLength": 3,
+		// NMA :3 valor de la tabla
 	
 		/**
 		 * Define the starting point for data display when using DataTables with
@@ -9481,8 +9481,8 @@
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
-		
+			"sSearch": "Buscar :",
+			// NMA : Cambio de <Search a Buscar
 		
 			/**
 			 * All of the language information can be stored in a file on the
@@ -9524,7 +9524,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sZeroRecords": "No matching records found"
+			"sZeroRecords": "No se encontraron resultados"
 		},
 	
 	

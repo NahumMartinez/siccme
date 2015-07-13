@@ -1,0 +1,25 @@
+-- FOR EACH ROW 
+BEGIN 
+-- Insercion a la Tabla de Historicos de los Encabezados de las Compras
+
+-- Seccion de Declaraciones
+declare v_precio_costo double;
+declare v_id_impuesto int;
+declare v_documento_id varchar(20);
+
+-- Seccion de Seteo de Variables
+-- Asignacion a los Precios de Costo de cada Items
+select distinct it.precio_costo, it.id_impuesto, ce.documento_id into v_precio_costo, v_id_impuesto, v_documento_id from t00_items_compras it, t00_compras_enc ce 
+ where it.id_compra = NEW.id_compra and it.id_producto = NEW.id_producto and it.id_compra = ce.id_compra;
+
+
+INSERT INTO t01_hitems_compras 
+(id_compra, id_producto, f_creacion, programa, usuario, precio_costo, id_impuesto, documento_id) 
+VALUES (NEW.id_compra, NEW.id_producto, NEW.f_creacion, NEW.programa, NEW.usuario, v_precio_costo, v_id_impuesto, v_documento_id);
+
+END
+
+
+-- TIEMPO = BEFORE
+-- EVENTO = INSERT
+-- TABLA = T00_ITEMS_PRODUCTOS
