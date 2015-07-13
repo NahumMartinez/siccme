@@ -28,7 +28,7 @@
                 <div class="body bg-gray">
                     <div class="form-group">
                         <input type="text" name="nombre_usuario" class="form-control" placeholder="Nombre Usuario"/>						
-						<!-- <a class="btn btn-block btn-primary" data-toggle="modal" data-target="#compose-modal"><i class="fa fa-pencil"></i> Compose Message</a> -->
+						<!--<a class="btn btn-block btn-primary" data-toggle="modal" data-target="#compose-modal"><i class="fa fa-pencil"></i> Compose Message</a>-->
                     </div>
 					<div class="form-group">
                         <input type="text" name="userid" class="form-control" placeholder="Nick Name"/>
