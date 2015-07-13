@@ -1,17 +1,17 @@
 <?php /*require('../../inc/config.php'); require('../../inc/funciones.php');*/
-			/*require('../../models/db/clsDatos.php');*/ require("../../scripts/scr_cargarCombo.php"); ?>
+			/*require('../../models/db/clsDatos.php');*/ require("../../../scripts/scr_cargarCombo.php"); ?>
 <!DOCTYPE html>
 <html class="bg-black">
     <head>
         <meta charset="UTF-8">
-        <title>504 - POS | Registro</title>
+        <title>SICCME | Registro al Sistema</title>
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- bootstrap 3.0.2 -->
-        <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <!-- font Awesome -->
-        <link href="../../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Theme style -->
-        <link href="../../css/AdminLTE.css" rel="stylesheet" type="text/css" />
+        <link href="../../../css/AdminLTE.css" rel="stylesheet" type="text/css" />
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,24 +27,29 @@
             <form action="#" method="post">
                 <div class="body bg-gray">
                     <div class="form-group">
-                        <input type="text" name="nombre_usuario" class="form-control" placeholder="Nombre Usuario"/>						<a class="btn btn-block btn-primary" data-toggle="modal" data-target="#compose-modal"><i class="fa fa-pencil"></i> Compose Message</a>
+                        <input type="text" name="nombre_usuario" class="form-control" placeholder="Nombre Usuario"/>						
+						<!-- <a class="btn btn-block btn-primary" data-toggle="modal" data-target="#compose-modal"><i class="fa fa-pencil"></i> Compose Message</a> -->
                     </div>
+					<div class="form-group">
+                        <input type="text" name="userid" class="form-control" placeholder="Nick Name"/>
+                    </div>
+					
                     <div class="form-group">
-                        <input type="text" name="userid" class="form-control" placeholder="User ID"/>
+                        <input type="text" name="num" class="form-control" placeholder="Codigo"/>
                     </div>
                     
                     <div class="form-group">
                         <input type="password" name="password" class="form-control" placeholder="Password"/>
                     </div>
                     <div class="form-group">
-                        <input type="password" name="password2" class="form-control" placeholder="Retype password"/>
+                        <input type="password" name="password2" class="form-control" placeholder="Repita password"/>
                     </div>
                 </div>
                 <div class="footer">                    
 
                     <button type="submit" class="btn bg-olive btn-block">Enviar</button>
 
-                    <a href="../../logeo.php" class="text-center">Ya poseo una cuenta</a>
+                    <a href="../../../logeo.php" class="text-center">Ya poseo una cuenta</a>
                 </div>
             </form>
 
@@ -115,7 +120,7 @@
         <!-- jQuery 2.0.2 -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
         <!-- Bootstrap -->
-        <script src="../../js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../../../js/bootstrap.min.js" type="text/javascript"></script>
 
     </body>
 </html>
