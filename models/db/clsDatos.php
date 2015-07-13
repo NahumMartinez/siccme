@@ -14,7 +14,7 @@ private $conecxion;
 		$servidor = "127.0.0.1";
 		$usuario  = "root";
 		$clave    = "";
-		$base     = "db_pos";
+		$base     = "db_siccme";
 		
 		$this->conecxion = mysql_connect($servidor,$usuario,$clave) or die (mysql_error());
 		if (!$this->conecxion) 
@@ -54,13 +54,13 @@ private $conecxion;
 	}
 	
 	public function ejecutar($sql){
-		//mysql_query($sql, $this->conecxion) or die('Error en el query: '.mysql_errno($this->conecxion).' - '.mysql_error($this->conecxion));
-		if (mysql_query($sql, $this->conecxion)) 
+		mysql_query($sql, $this->conecxion) or die('Error en el query: '.mysql_errno($this->conecxion).' - '.mysql_error($this->conecxion));
+		/*if (mysql_query($sql, $this->conecxion)) 
 		{ 
 			mysql_query("COMMIT");
 		}else{
-			mysql_query("COMMIT");
-		}
+			mysql_query("ROLLBACK");
+		}*/
 		
 	}
 	

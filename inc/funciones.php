@@ -1,7 +1,7 @@
 <?php
  /**
   * @package: Login Simple
-  * @author: Irwin Lopez (Irwin2382 | Cerec)
+  * @author: Nahum Martinez (NMA | 2015)
   * @version: 1.0
   * @link: http://www.poxion.net
   **/ 

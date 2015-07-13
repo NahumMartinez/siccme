@@ -6,7 +6,7 @@
 <html class="lockscreen">
     <head>
         <meta charset="UTF-8">
-        <title>504 - POS | Acceso</title>
+        <title>SICCME | Acceso al Sistema</title>
         <meta charset="UTF-8">
 	    <link href="assets/css/Irwin2382.css" rel="stylesheet">
 	    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -68,7 +68,7 @@
             </div><!-- /.headline -->
             
             <!-- User name -->
-            <div class="lockscreen-name" style="font-size:30px;font-family: 'Kaushan Script', cursive;">504 - POS</div>
+            <div class="lockscreen-name" style="font-size:30px;font-family: 'Kaushan Script', cursive;">SICCME</div>
             
             <!-- START LOCK SCREEN ITEM -->
             <div class="lockscreen-item" style=" width:500px">
@@ -86,9 +86,9 @@
                     <p id='alert_error' class='text-error visible'></p>
 		    <p id='alert_success' class='text-correcto visible'></p>
                         <form id="LoginSimpleIrwin2382"  onsubmit="return formulario(this)">
-                            <input type="text" id="username" class="form-control" style=" font-size:18px; font-weight:bold" placeholder="Usuario" autocomplete="off" ><br><br>
-                            <input type="password" id="password" class="form-control" style=" font-size:18px; font-weight:bold" placeholder="Contraseña"><br><br>
-                            <input type="submit" id="EnviarLogin" value="Iniciar Sesión" class="boton_2"><i class="fa fa-arrow-right text-muted"></i><input type="reset" class="boton_2" style="width:100px" value="Limpiar" /><br>
+						<input type="text" id="username" class="form-control" style=" font-size:18px; font-weight:bold" placeholder="Usuario" autocomplete="off" ><br><br>
+						<input type="password" id="password" class="form-control" style=" font-size:18px; font-weight:bold" placeholder="Contraseña"><br><br>
+						<input type="submit" id="EnviarLogin" value="Iniciar Sesión" class="boton_2"><i class="fa fa-arrow-right text-muted"></i><input type="reset" class="boton_2" style="width:100px" value="Limpiar" /><br>
                             
 			</form>
                     </div>
@@ -98,7 +98,7 @@
             </div><!-- /.lockscreen-item -->
 				
             <div class="lockscreen-link">
-                <a href="views/seguridad/v_registro.php">Registro</a>
+                <a href="views/seguridad/usuarios/v_registro.php">Registro</a>
             </div>            
         </div><!-- /.center -->
 

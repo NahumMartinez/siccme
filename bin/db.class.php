@@ -2,13 +2,13 @@
 
  class DB{
  	
- 	private $hostname = "localhost";
+   private $hostname = "localhost";
    private $user = "root";
    private $password = "";
-   private $database = "db_prueba";
-   private $tableName="labs_user_info";
- 	private $db;
- 	private $resource;
+   private $database = "db_siccme";
+   private $tableName="t00_usuarios";
+   private $db;
+   private $resource;
  	
  	public function connectDB() {
  	  $this->db = mysql_connect( $this->hostname,$this->user,$this->password) or die("Could not connect database");
@@ -17,7 +17,7 @@
  	
  	
    public function executeQuery($q) {
-     $this->resource=mysql_query("select * from $this->tableName where nombre like '%$q%' or apellido like '%$q%' ");
+     $this->resource=mysql_query("SELECT * FROM $this->tableName WHERE COD_USUARIO like '%$q%' or NICK_NAME like '%$q%' ");
    } 	
    
    public function fetchArray() {
@@ -25,9 +25,5 @@
    }
  	
  }
-
-
-
-
 
 ?>

@@ -20,7 +20,7 @@
                                     . "FROM t00_usuarios WHERE cod_usuario ='$username' and pass_usuario ='".$passenc."'");
       if($Login = mysqli_fetch_array($ValidarLogin)) {
         $_SESSION["username"]    = $Login["nick_name"];
-	$_SESSION["pass"]        = $Login["pass_usuario"];
+		$_SESSION["pass"]        = $Login["pass_usuario"];
         $_SESSION["id_sucursal"] = $Login["id_sucursal"];
         $_SESSION["id_almacen"]  = $Login["id_almacen"];
         
