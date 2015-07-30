@@ -81,14 +81,15 @@
                 <!-- lockscreen credentials (contains the form) -->
                 <div class="lockscreen-credentials" style=" width:700px">   
 		<br>             
-                    <div id="ver" style="width:20px; background-color:#000; display:none"></div>					                        <img src="img/ajax-loader.gif" style="width:20px; background-color:#000; display:none">               
+                    <div id="ver" style="width:20px; background-color:#000; display:none"></div>
+					<img src="img/ajax-loader.gif" style="width:20px; background-color:#000; display:none">               
 		    <div class="input-group" >
                     <p id='alert_error' class='text-error visible'></p>
 		    <p id='alert_success' class='text-correcto visible'></p>
-                        <form id="LoginSimpleIrwin2382"  onsubmit="return formulario(this)">
-						<input type="text" id="username" class="form-control" style=" font-size:18px; font-weight:bold" placeholder="Usuario" autocomplete="off" ><br><br>
-						<input type="password" id="password" class="form-control" style=" font-size:18px; font-weight:bold" placeholder="Contraseña"><br><br>
-						<input type="submit" id="EnviarLogin" value="Iniciar Sesión" class="boton_2"><i class="fa fa-arrow-right text-muted"></i><input type="reset" class="boton_2" style="width:100px" value="Limpiar" /><br>
+			<form id="LoginSimpleIrwin2382"  onsubmit="return formulario(this)" autocomplete="off">
+				<input type="text" id="username" class="form-control" autocomplete="off" style=" font-size:18px; font-weight:bold" placeholder="Usuario" ><br><br>
+				<input type="password" id="password" class="form-control" style=" font-size:18px; font-weight:bold" placeholder="Contraseña"><br><br>
+				<input type="submit" id="EnviarLogin" value="Iniciar Sesión" class="boton_2"><i class="fa fa-arrow-right text-muted"></i><input type="reset" class="boton_2" style="width:100px" value="Limpiar" /><br>
                             
 			</form>
                     </div>
@@ -98,7 +99,7 @@
             </div><!-- /.lockscreen-item -->
 				
             <div class="lockscreen-link">
-                <a href="views/seguridad/usuarios/v_registro.php">Registro</a>
+                <a href="views/seguridad/usuarios/v_registro.php">Registrarse</a>
             </div>            
         </div><!-- /.center -->
 

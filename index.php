@@ -1,3 +1,21 @@
+<?php
+session_start();
+if (empty($_SESSION['username']) || empty($_SESSION['pass'])) {
+    //	Verifica Si Inicio Session
+    echo " 
+                <script language='JavaScript'> 
+                alert('No has Iniciado Session Debes Logearte');
+				location.href='logeo.php'; 
+		</script>";
+    exit();
+
+} else {
+    //echo $_SESSION['username'];
+    //echo $_SESSION['pass'];
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -269,7 +287,7 @@
                                         <a href="#" class="btn btn-default btn-flat">Profile</a>
                                     </div>
                                     <div class="pull-right">
-                                        <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                                        <a href="logout.php" class="btn btn-default btn-flat">Sign out</a>
                                     </div>
                                 </li>
                             </ul>

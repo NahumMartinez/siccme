@@ -24,6 +24,7 @@
 
         <div class="form-box" id="login-box">
             <div class="header">Registro de Nuevos Usuarios</div>
+							
             <form action="#" method="post">
                 <div class="body bg-gray">
                     <div class="form-group">
@@ -35,7 +36,7 @@
                     </div>
 					
                     <div class="form-group">
-                        <input type="text" name="num" class="form-control" placeholder="Codigo"/>
+                        <input type="text" name="num" class="form-control" placeholder="No. Identidad"/>
                     </div>
                     
                     <div class="form-group">
@@ -44,15 +45,21 @@
                     <div class="form-group">
                         <input type="password" name="password2" class="form-control" placeholder="Repita password"/>
                     </div>
+						
                 </div>
+				
                 <div class="footer">                    
 
-                    <button type="submit" class="btn bg-olive btn-block">Enviar</button>
-
-                    <a href="../../../logeo.php" class="text-center">Ya poseo una cuenta</a>
+                    <!--<button type="submit" class="btn bg-olive btn-block">Enviar</button>-->
+					<!--<input class="btn bg-olive btn-block" type="button" value="Buscar Persona" id="boton_FindPerson" name="boton_FindPerson" onclick='Incluir();'>-->
+					<a class="btn btn-block btn-primary" data-toggle="modal" data-target="#compose-modal"><i class="fa fa-pencil"></i> Buscar Persona</a>                    
+					<input class="btn bg-olive btn-block" type="button" value="Enviar" id="boton_Send" name="boton_Send" onclick='Incluir();'>
+										
+					<a href="../../../logeo.php" class="text-center">Ya poseo una cuenta</a>
+					
                 </div>
             </form>
-
+						
             <div class="margin text-center">
                 <span>Register using social networks</span>
                 <br/>

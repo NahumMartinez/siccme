@@ -13,6 +13,6 @@
  $serv = "127.0.0.1"; //Servidor Mysql GENERAL MENTE LOCALHOST
  $user = "root"; //Usuario Mysql
  $pass = ""; //Contraseña Mysql
- $base = "db_pos"; //Base Myqsl
+ $base = "db_siccme"; //Base Myqsl
  $con = mysqli_connect($serv,$user,$pass,$base);
  if (!$con) { echo "<b>NO SE PUDO CONECTAR CON LA BASE DE DATOS</b>"; exit; }

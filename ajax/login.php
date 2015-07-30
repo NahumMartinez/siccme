@@ -1,10 +1,8 @@
 <?php
  /**
   * @package: Login Simple
-  * @author: Irwin Lopez (Irwin2382 | Cerec)
+  * @author: Nahum Martinez(NMA | 2015)
   * @version: 1.0
-  * @link: http://www.poxion.net
-  * @copyright: NINGUNO PERO NO LE QUITEN LOS P**S CREDITOS -.-"
   **/ 
   session_start();  
     require('../inc/config.php');
@@ -18,7 +16,8 @@
 	//echo $passenc;
     $ValidarLogin = mysqli_query($con,"SELECT nick_name, pass_usuario, id_sucursal, id_almacen "
                                     . "FROM t00_usuarios WHERE cod_usuario ='$username' and pass_usuario ='".$passenc."'");
-      if($Login = mysqli_fetch_array($ValidarLogin)) {
+      
+	  if($Login = mysqli_fetch_array($ValidarLogin)) {
         $_SESSION["username"]    = $Login["nick_name"];
 		$_SESSION["pass"]        = $Login["pass_usuario"];
         $_SESSION["id_sucursal"] = $Login["id_sucursal"];
