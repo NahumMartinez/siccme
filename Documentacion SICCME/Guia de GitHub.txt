@@ -5,4 +5,7 @@
 	* http://rogerdudler.github.io/git-guide/index.es.html
 3 ) Guia Completa paso a paso de como Crear reporsitorio, subir cambios y comentarlos y actualizar el reporsitorio.
 	* https://gist.github.com/juanghurtado/7a819d4f07619e944b56
-	
+4 ) Para Bajar los cambios del servidor, siempre y cuando ya Exista la version en el Local (Que ya este configurada en tu PC)
+    * Usanmos el comando : git pull origin master
+    	-> origin es el repositorio Local : C:\xampp\htdocs\siccme, como por ejemplo
+    	-> master es el repositorio Servidor GitHub : https://github.com/NahumMartinez/siccme.git
