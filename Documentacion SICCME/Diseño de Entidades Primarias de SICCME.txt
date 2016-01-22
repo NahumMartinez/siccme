@@ -1,0 +1,43 @@
+******************** Entidades Principales del Sistema ************************
+-> Tablas Transacciones de las Operativa Medica
+1 ) Medicos
+2 ) Pacientes
+3 ) Enfermedades
+4 ) Padecer (Liga La enfermedad con el paciente)
+5 ) Especialidades
+6 ) Expedientes_Medicos 
+7 ) Citas_Medicas (Relaciona el Paciente, Medico, Sala, Diagnostico )
+8 ) Historial_Medico (Historico de las Citas_Medicas que han tenido los pacientes y el Expediente)
+9 ) Patologias *
+9 ) Patologias_Paciente (Establece los sintamos enfermedades y habitos personales del Paciente)
+10 ) Salas_Medicas (Ubicacion Geografica dentro del Centro Medico)
+
+-> Tablas Generales del Sistema
+1 ) Tipos
+2 ) Codigos
+3 ) Estados
+4 ) Grupos
+5 ) Parametros
+6 ) Validaciones
+7 ) Sexo *
+8 ) Estado_Civil *
+9 ) Personas (Esta Tabla Alberga toda la Informacion de una Persona; ya sea Paciente, Medico u otro)
+10 ) Profesiones
+11 ) Galeria_Fotos (Alberga las Imagenes de Fotografias , o otras del sistema, y las firencia el tipo de Fotografias)
+12 ) 
+
+-> Tablas de Direccion Geografica
+1 ) Pais
+2 ) Departamentos
+3 ) Municipios
+4 ) Aldeas
+5 ) Colonias / Barrios / Residenciales
+6 ) Direcciones_Persona (Cojunto de las demas anteriores, mas descripcion abierta de la vivienda)
+7 ) 
+
+
+
+
+
+
+
