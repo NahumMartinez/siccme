@@ -33,7 +33,7 @@
 4 ) Aldeas
 5 ) Colonias / Barrios / Residenciales
 6 ) Direcciones_Persona (Cojunto de las demas anteriores, mas descripcion abierta de la vivienda)
-7 ) 
+7 ) Oras
 
 
 
