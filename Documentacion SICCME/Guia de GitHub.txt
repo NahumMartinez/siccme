@@ -12,3 +12,6 @@
 5 ) Trabajo en equipo : * http://www.cristalab.com/tutoriales/como-colaborar-en-un-proyecto-en-github-c112327l/ 
 6 ) CLonar Proyecto : $ git clone https://github.com/NahumMartinez/siccme.git
 7 ) Actualizar lo que hay en el Repositorio : $ git pull
+8 ) Configurar las variables de entorno de Credenciales de Usuario y E Mail
+    $ git config --global user.name "Nahum Martinez"
+    $ git config --global user.email "neroblanco22@yahoo.es" 	
