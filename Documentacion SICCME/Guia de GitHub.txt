@@ -10,3 +10,4 @@
     	-> origin es el repositorio Local : C:\xampp\htdocs\siccme, como por ejemplo
     	-> master es el repositorio Servidor GitHub : https://github.com/NahumMartinez/siccme.git
 5 ) Trabajo en equipo : * http://www.cristalab.com/tutoriales/como-colaborar-en-un-proyecto-en-github-c112327l/ 
+6 ) CLonar Proyecto : $ git clone git://github.com/schacon/grit.git
