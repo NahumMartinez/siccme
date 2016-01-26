@@ -15,3 +15,4 @@
 8 ) Configurar las variables de entorno de Credenciales de Usuario y E Mail
     $ git config --global user.name "Nahum Martinez"
     $ git config --global user.email "neroblanco22@yahoo.es" 	
+9 ) Nuevo
